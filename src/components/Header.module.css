@@ -1,0 +1,20 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(0, 0%, 9%);
+  height: 5rem;
+
+  justify-content: space-between;
+  border-radius: 10px;
+  align-items: center;
+}
+.img {
+  height: 4rem;
+}
+.button1 {
+  background-color: rgb(238, 238, 238);
+  margin-right: 3%;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+  font-size: 1rem;
+}
