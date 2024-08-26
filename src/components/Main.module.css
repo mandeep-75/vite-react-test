@@ -1,0 +1,8 @@
+.div1 {
+  background-color: hsl(246, 74%, 25%);
+  border-radius: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
