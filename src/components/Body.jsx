@@ -8,14 +8,18 @@ export default function Body() {
     { name: "mandeep4", id: 4 },
     { name: "mandeep5", id: 5 },
   ];
+
   return (
-    <div className={style.grid}>
-      {tasks.map((task) => (
-        <div className={style.div1}>
-          <p style={{ padding: "0px,10px,0px,10px" }}>taskname = {task.name}</p>
-          <p>taskid ={task.id}</p>
-        </div>
-      ))}
-    </div>
+    <>
+      <div className={style.grid}>
+        {tasks.map((task) => (
+          <div className={style.div1}>
+            <p className={style.bold}>{task.name}</p>
+
+            <p className={style.bold}>{task.id}</p>
+          </div>
+        ))}
+      </div>
+    </>
   );
 }
